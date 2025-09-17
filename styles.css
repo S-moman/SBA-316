@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    background-color: orange;
+    color: black;
+}
+header {
+    border: 2px solid blue;
+}
+#serviceBlock {
+    display: inline-table;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 100%;
+    outline: 2px solid black; 
+}
+div {
+    height: 100px;
+    width: 100%;
+    border: 2px solid red;
+}
+.flex-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: orange;
+}
+
+
