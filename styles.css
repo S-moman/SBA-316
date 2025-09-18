@@ -1,24 +1,25 @@
 body {
-    height: 100vh;
-    margin: 0;
-    display: grid;
-    background-color: orange;
-    color: black;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  background-color: orange;
+  color: black;
 }
 header {
-    border: 2px solid blue;
+  border: 2px solid green;
 }
 #serviceBlock {
-    display: inline-table;
-    flex-wrap: wrap;
-    height: max-content;
-    width: 100%;
-    outline: 2px solid black; 
+  display: flex;
+  display: inline-table;
+  flex-wrap: wrap;
+  height: max-content;
+  /* width: 100%; */
+  outline: 2px solid black;
 }
 div {
-    height: 100px;
-    width: 100%;
-    border: 2px solid red;
+  height: 800px;
+  /* width: 100%; */
+  border: 2px solid red;
 }
 .flex-ctr {
   display: flex;
@@ -35,5 +36,3 @@ nav a {
   text-decoration: none;
   color: orange;
 }
-
-
