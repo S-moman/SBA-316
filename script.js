@@ -11,6 +11,7 @@ const removeButton = document.getElementById('removeButton')
 
 
 
+
 const menuLinks = [
   { text: "Home", href: "#" },
   { text: "Register", href: "#" },
@@ -61,17 +62,18 @@ function addToDo(e) {
   newToDo.focus();
 }
 
-function removeToDo(e) {
-  console.log(e.target);
-  let rItem = ''\
-  ;
-  console.log(rItem);
-  toDoZonea.firstChild.appendChild(rItem)
-}
+// function removeToDo(e) {
+//   console.log(e.target);
+//   let rItem = ''
+//   ;
+//   console.log(rItem);
+//   toDoZonea.firstChild.appendChild(rItem)
+// }
+
 
 
 addButton.addEventListener('click', addToDo);
-removeButton.addEventListener('click', removeToDo);
+// removeButton.addEventListener('click', removeToDo);
 
 // class Customer {
 //   #name = {
